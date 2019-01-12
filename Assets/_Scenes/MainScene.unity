@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c933fa16b37e206488e9bd99c8f22027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightAngle: 20
+  lightAngle: 200
   lightBounds: 120
 --- !u!1 &1581704869
 GameObject:
@@ -271,7 +271,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
