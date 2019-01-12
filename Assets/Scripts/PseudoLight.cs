@@ -31,7 +31,7 @@ public class PseudoLight : MonoBehaviour
     void MoveLight()
     {
 #if UNITY_EDITOR
-        transform.Rotate(0, 0, Time.deltaTime * moveSpeed)
+        transform.Rotate(0, 0, Time.deltaTime * moveSpeed);
 #endif
     }
 }
