@@ -35,7 +35,6 @@ public class Ship : MonoBehaviour
 
     void Fly()
     {
-        Debug.Log(flyingToLeft);
         if (transform.position.x < -flyingRange || transform.position.x > flyingRange)
             flyingToLeft = !flyingToLeft;
         transform.position += (flyingToLeft ? Vector3.left : Vector3.right) * Time.deltaTime * flyingSpeed;
