@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23503718560535234}
   - component: {fileID: 114813238845311208}
   m_Layer: 0
-  m_Name: Trident
+  m_Name: Trident_Suicider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
