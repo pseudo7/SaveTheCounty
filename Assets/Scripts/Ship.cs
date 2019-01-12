@@ -20,6 +20,24 @@ public class Ship : MonoBehaviour
         flyingSpeed = Random.Range(flyingSpeedBounds[0], flyingSpeedBounds[1]);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag(Constants.BULLET_TAG))
+        {
+            Debug.Log("HIT");
+            BulletHit();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag(Constants.GROUND_TAG))
+        {
+            GameManager.Instance.SpawnBlast(collision.otherCollider.transform.position + Vector3.back * 5);
+            Destroy(gameObject);
+        }
+    }
+
     private void Update()
     {
         if (dead)
@@ -43,6 +61,11 @@ public class Ship : MonoBehaviour
     void BulletHit()
     {
         if (--health <= 0)
+        {
             dead = true;
+            var shipRB = GetComponent<Rigidbody2D>();
+            shipRB.gravityScale = 1;
+            shipRB.AddForce(flyingToLeft ? -transform.right : transform.right, ForceMode2D.Impulse);
+        }
     }
 }

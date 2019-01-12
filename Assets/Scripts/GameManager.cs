@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject ufo;
     public GameObject suicider;
     public GameObject motherShip;
+    public GameObject blast;
 
     public float spawnWidthRadius = 10;
     public Vector2 spawnHeightBounds = new Vector2(3, 5);
@@ -73,6 +74,11 @@ public class GameManager : MonoBehaviour
             else countdownMotherShip += Time.deltaTime;
             yield return WAIT_FOR_ENDFRAME;
         }
+    }
+
+    public void SpawnBlast(Vector3 impactPoint)
+    {
+        Instantiate(blast, impactPoint, blast.transform.rotation);
     }
 
     public void UpdateLevelInfo(LevelInfo levelInfo)
