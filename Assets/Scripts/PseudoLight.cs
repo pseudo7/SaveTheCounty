@@ -6,19 +6,23 @@ public class PseudoLight : MonoBehaviour
 {
     public int lightAngle = 20;
     public int lightBounds = 120;
-    public float moveSpeed = 10;
+    public float moveSpeed = 3;
 
     Transform leftFlank, rightFlank;
+    float currentRotationZ;
+    int bound;
 
     private void Start()
     {
         leftFlank = transform.GetChild(0);
         rightFlank = transform.GetChild(1);
+        bound = lightBounds / 2;
     }
 
     private void Update()
     {
         SetupLight();
+        MoveLight();
     }
 
     void SetupLight()
@@ -30,8 +34,13 @@ public class PseudoLight : MonoBehaviour
 
     void MoveLight()
     {
+        float rotZ;
 #if UNITY_EDITOR
-        transform.Rotate(0, 0, Time.deltaTime * moveSpeed);
+        rotZ = Input.GetAxis("Horizontal");
+#else
+        rotZ = Input.acceleration.x;
 #endif
+        if ((rotZ < 0 && currentRotationZ < bound) || (rotZ > 0 && currentRotationZ > -bound))
+            transform.rotation = Quaternion.Euler(0, 0, currentRotationZ += rotZ * -moveSpeed);
     }
 }
