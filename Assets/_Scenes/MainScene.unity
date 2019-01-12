@@ -142,7 +142,7 @@ Transform:
   - {fileID: 2007687518}
   - {fileID: 1581704871}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &261071550
 MonoBehaviour:
@@ -189,6 +189,8 @@ MonoBehaviour:
   ufo: {fileID: 1086446059659214, guid: 71a65f9a358ebbb4da59caec58dd4023, type: 2}
   suicider: {fileID: 1449521564655062, guid: c23b1dc05bdfde1499098e904d827e29, type: 2}
   motherShip: {fileID: 1834120237106518, guid: 9e9b71e4f3500ba42a02f48fbcf612de, type: 2}
+  spawnWidthRadius: 7.5
+  spawnHeightBounds: {x: 0, y: 4}
   ufoSpawnTime: 0
   suiciderSpawnTime: 0
   motherShipSpawnTime: 0
@@ -203,7 +205,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &816326971
 MonoBehaviour:

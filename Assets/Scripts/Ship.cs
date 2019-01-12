@@ -8,13 +8,37 @@ public class Ship : MonoBehaviour
     public float fireRate = 2;
     public Vector3 rotationAngle = Vector3.up;
     public float rotationSpeed = 100;
+    public float flyingRange = 7.5f;
+    public Vector2 flyingSpeedBounds = new Vector2(1, 5);
 
     bool dead;
+    bool flyingToLeft;
+    float flyingSpeed;
+
+    private void Start()
+    {
+        flyingSpeed = Random.Range(flyingSpeedBounds[0], flyingSpeedBounds[1]);
+    }
 
     private void Update()
     {
-        if (!dead)
-            transform.Rotate(rotationAngle * Time.deltaTime * rotationSpeed);
+        if (dead)
+            return;
+        Fly();
+        Rotate();
+    }
+
+    void Rotate()
+    {
+        transform.Rotate(rotationAngle * Time.deltaTime * rotationSpeed);
+    }
+
+    void Fly()
+    {
+        Debug.Log(flyingToLeft);
+        if (transform.position.x < -flyingRange || transform.position.x > flyingRange)
+            flyingToLeft = !flyingToLeft;
+        transform.position += (flyingToLeft ? Vector3.left : Vector3.right) * Time.deltaTime * flyingSpeed;
     }
 
     void BulletHit()
