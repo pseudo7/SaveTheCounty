@@ -24,7 +24,9 @@ public class Ship : MonoBehaviour
     {
         if (collision.CompareTag(Constants.BULLET_TAG))
         {
-            Debug.Log("HIT");
+            if (dead)
+                return;
+            collision.gameObject.SetActive(false);
             BulletHit();
         }
     }
@@ -33,7 +35,7 @@ public class Ship : MonoBehaviour
     {
         if (collision.collider.CompareTag(Constants.GROUND_TAG))
         {
-            GameManager.Instance.SpawnBlast(collision.otherCollider.transform.position + Vector3.back * 5);
+            GameManager.Instance.SpawnBlast(new Vector3(collision.otherCollider.transform.position.x, -4.5f));
             Destroy(gameObject);
         }
     }
@@ -64,8 +66,9 @@ public class Ship : MonoBehaviour
         {
             dead = true;
             var shipRB = GetComponent<Rigidbody2D>();
-            shipRB.gravityScale = 1;
+            shipRB.gravityScale = .8f;
             shipRB.AddForce(flyingToLeft ? -transform.right : transform.right, ForceMode2D.Impulse);
+            shipRB.AddTorque(.5f, ForceMode2D.Impulse);
         }
     }
 }

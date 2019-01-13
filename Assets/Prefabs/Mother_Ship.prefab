@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4144489012695424}
   - component: {fileID: 33065109353168780}
   - component: {fileID: 23377328731660426}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4660330908540044}
   - component: {fileID: 33031420845347988}
   - component: {fileID: 23220257016162586}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flubber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114821948248385070}
   - component: {fileID: 50144342011630666}
   - component: {fileID: 70761359472930396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mother_Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4632366171733086}
   - component: {fileID: 33145673773156518}
   - component: {fileID: 23591600053632760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flubber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4710190580542308}
   - component: {fileID: 33587026529861238}
   - component: {fileID: 23698901712105010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flubber
   m_TagString: Untagged
   m_Icon: {fileID: 0}

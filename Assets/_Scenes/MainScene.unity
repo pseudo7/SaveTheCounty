@@ -218,7 +218,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e1103e37f99f2b3489583f8d1cdb1447, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -306,7 +306,12 @@ MonoBehaviour:
   ufo: {fileID: 1086446059659214, guid: 71a65f9a358ebbb4da59caec58dd4023, type: 2}
   suicider: {fileID: 1449521564655062, guid: c23b1dc05bdfde1499098e904d827e29, type: 2}
   motherShip: {fileID: 1834120237106518, guid: 9e9b71e4f3500ba42a02f48fbcf612de, type: 2}
-  blast: {fileID: 1736778351247516, guid: a05d75166d593e541a8677439d975de2, type: 2}
+  blastPrefabs:
+  - {fileID: 1736778351247516, guid: a05d75166d593e541a8677439d975de2, type: 2}
+  - {fileID: 1281169371071470, guid: cd0f83c934c80484b927ec866b883dfa, type: 2}
+  - {fileID: 1629275377002960, guid: 7181771b29199b94091a9916529bfbc9, type: 2}
+  - {fileID: 1598056383534464, guid: 93afbb7a295a5d74fa7091110eab757b, type: 2}
+  - {fileID: 1045395252425796, guid: 7c34f898599a0974bbeb98d86793e598, type: 2}
   spawnWidthRadius: 7.5
   spawnHeightBounds: {x: 0, y: 4}
   ufoSpawnTime: 0

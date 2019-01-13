@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212492797179140684}
   - component: {fileID: 114149943225422210}
   m_Layer: 0
-  m_Name: Blast
+  m_Name: Blast_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,33 +53,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blastSprites:
-  - {fileID: 21300000, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300002, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300004, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300006, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300008, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300010, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300012, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300014, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300016, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300018, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300020, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300022, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300024, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300026, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300028, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300030, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300032, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300034, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300036, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300038, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300040, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300042, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300044, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300046, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300048, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300050, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
-  - {fileID: 21300052, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300054, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300056, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300058, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300060, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300062, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300064, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300066, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300068, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300070, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300072, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300074, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300076, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300078, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300080, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300082, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300084, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300086, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300088, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300090, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300092, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300094, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300096, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300098, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
+  - {fileID: 21300100, guid: 6deab3430c2479847b902feb31a29a29, type: 3}
   playSpeed: 3
   loop: 0
 --- !u!212 &212492797179140684
@@ -115,7 +112,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

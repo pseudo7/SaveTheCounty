@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject ufo;
     public GameObject suicider;
     public GameObject motherShip;
-    public GameObject blast;
+    public GameObject[] blastPrefabs;
 
     public float spawnWidthRadius = 10;
     public Vector2 spawnHeightBounds = new Vector2(3, 5);
@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnBlast(Vector3 impactPoint)
     {
+        var blast = blastPrefabs[Random.Range(0, blastPrefabs.Length)];
         Instantiate(blast, impactPoint, blast.transform.rotation);
     }
 

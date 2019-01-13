@@ -1,36 +1,55 @@
 fileFormatVersion: 2
-guid: 6deab3430c2479847b902feb31a29a29
-timeCreated: 1547314659
+guid: 2df6ef14321b31a4c867f77d783359b5
+timeCreated: 1547331286
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: blast_white_0
-    21300002: blast_white_1
-    21300004: blast_white_2
-    21300006: blast_white_3
-    21300008: blast_white_4
-    21300010: blast_white_5
-    21300012: blast_white_6
-    21300014: blast_white_7
-    21300016: blast_white_8
-    21300018: blast_white_9
-    21300020: blast_white_10
-    21300022: blast_white_11
-    21300024: blast_white_12
-    21300026: blast_white_13
-    21300028: blast_white_14
-    21300030: blast_white_15
-    21300032: blast_white_16
-    21300034: blast_white_17
-    21300036: blast_white_18
-    21300038: blast_white_19
-    21300040: blast_white_20
-    21300042: blast_white_21
-    21300044: blast_white_22
-    21300046: blast_white_23
-    21300048: blast_white_24
-    21300050: blast_white_25
-    21300052: blast_white_26
+    21300000: 71859947b85b5c4911634fb2c8fd7694_0
+    21300002: 71859947b85b5c4911634fb2c8fd7694_1
+    21300004: 71859947b85b5c4911634fb2c8fd7694_2
+    21300006: 71859947b85b5c4911634fb2c8fd7694_3
+    21300008: 71859947b85b5c4911634fb2c8fd7694_4
+    21300010: 71859947b85b5c4911634fb2c8fd7694_5
+    21300012: 71859947b85b5c4911634fb2c8fd7694_6
+    21300014: 71859947b85b5c4911634fb2c8fd7694_7
+    21300016: 71859947b85b5c4911634fb2c8fd7694_8
+    21300018: 71859947b85b5c4911634fb2c8fd7694_9
+    21300020: 71859947b85b5c4911634fb2c8fd7694_10
+    21300022: 71859947b85b5c4911634fb2c8fd7694_11
+    21300024: 71859947b85b5c4911634fb2c8fd7694_12
+    21300026: 71859947b85b5c4911634fb2c8fd7694_13
+    21300028: 71859947b85b5c4911634fb2c8fd7694_14
+    21300030: 71859947b85b5c4911634fb2c8fd7694_15
+    21300032: 71859947b85b5c4911634fb2c8fd7694_16
+    21300034: 71859947b85b5c4911634fb2c8fd7694_17
+    21300036: 71859947b85b5c4911634fb2c8fd7694_18
+    21300038: 71859947b85b5c4911634fb2c8fd7694_19
+    21300040: 71859947b85b5c4911634fb2c8fd7694_20
+    21300042: 71859947b85b5c4911634fb2c8fd7694_21
+    21300044: 71859947b85b5c4911634fb2c8fd7694_22
+    21300046: blast_5_0
+    21300048: blast_5_1
+    21300050: blast_5_2
+    21300052: blast_5_3
+    21300054: blast_5_4
+    21300056: blast_5_5
+    21300058: blast_5_6
+    21300060: blast_5_7
+    21300062: blast_5_8
+    21300064: blast_5_9
+    21300066: blast_5_10
+    21300068: blast_5_11
+    21300070: blast_5_12
+    21300072: blast_5_13
+    21300074: blast_5_14
+    21300076: blast_5_15
+    21300078: blast_5_16
+    21300080: blast_5_17
+    21300082: blast_5_18
+    21300084: blast_5_19
+    21300086: blast_5_20
+    21300088: blast_5_21
+    21300090: blast_5_22
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -127,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blast_white_0
+      name: blast_5_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 334
-        width: 37
-        height: 29
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,13 +160,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_1
+      name: blast_5_1
       rect:
         serializedVersion: 2
-        x: 78
-        y: 333
-        width: 41
-        height: 39
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,13 +174,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_2
+      name: blast_5_2
       rect:
         serializedVersion: 2
-        x: 143
-        y: 333
-        width: 44
-        height: 41
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,13 +188,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_3
+      name: blast_5_3
       rect:
         serializedVersion: 2
-        x: 209
-        y: 333
-        width: 43
-        height: 43
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,13 +202,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_4
+      name: blast_5_4
       rect:
         serializedVersion: 2
-        x: 273
-        y: 332
-        width: 45
-        height: 53
+        x: 256
+        y: 256
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,13 +216,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_5
+      name: blast_5_5
       rect:
         serializedVersion: 2
-        x: 10
-        y: 251
-        width: 48
-        height: 55
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,13 +230,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_6
+      name: blast_5_6
       rect:
         serializedVersion: 2
-        x: 75
-        y: 251
-        width: 51
-        height: 56
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,13 +244,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_7
+      name: blast_5_7
       rect:
         serializedVersion: 2
-        x: 139
-        y: 251
-        width: 53
-        height: 56
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,13 +258,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_8
+      name: blast_5_8
       rect:
         serializedVersion: 2
-        x: 203
-        y: 250
-        width: 55
-        height: 57
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,13 +272,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_9
+      name: blast_5_9
       rect:
         serializedVersion: 2
-        x: 269
-        y: 250
-        width: 54
-        height: 57
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,13 +286,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_10
+      name: blast_5_10
       rect:
         serializedVersion: 2
-        x: 7
-        y: 168
-        width: 54
-        height: 59
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,13 +300,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_11
+      name: blast_5_11
       rect:
         serializedVersion: 2
-        x: 71
-        y: 167
-        width: 55
-        height: 60
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,13 +314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_12
+      name: blast_5_12
       rect:
         serializedVersion: 2
-        x: 136
-        y: 167
-        width: 56
-        height: 60
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,13 +328,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_13
+      name: blast_5_13
       rect:
         serializedVersion: 2
-        x: 201
-        y: 167
-        width: 57
-        height: 60
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,13 +342,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_14
+      name: blast_5_14
       rect:
         serializedVersion: 2
-        x: 269
-        y: 171
-        width: 55
-        height: 56
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,13 +356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_15
+      name: blast_5_15
       rect:
         serializedVersion: 2
-        x: 8
-        y: 92
-        width: 54
-        height: 55
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,13 +370,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_16
+      name: blast_5_16
       rect:
         serializedVersion: 2
-        x: 73
-        y: 92
-        width: 54
-        height: 55
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,13 +384,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_17
+      name: blast_5_17
       rect:
         serializedVersion: 2
-        x: 139
-        y: 93
-        width: 54
-        height: 55
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,13 +398,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_18
+      name: blast_5_18
       rect:
         serializedVersion: 2
-        x: 204
-        y: 94
-        width: 54
-        height: 54
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,13 +412,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_19
+      name: blast_5_19
       rect:
         serializedVersion: 2
-        x: 270
-        y: 94
-        width: 54
-        height: 55
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,13 +426,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_20
+      name: blast_5_20
       rect:
         serializedVersion: 2
-        x: 319
-        y: 105
-        width: 5
-        height: 6
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,13 +440,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_21
+      name: blast_5_21
       rect:
         serializedVersion: 2
-        x: 13
-        y: 12
-        width: 46
-        height: 56
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,69 +454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: blast_white_22
+      name: blast_5_22
       rect:
         serializedVersion: 2
-        x: 81
-        y: 34
-        width: 34
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blast_white_23
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 45
-        width: 34
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blast_white_24
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 47
-        width: 37
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blast_white_25
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 19
-        width: 13
-        height: 18
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blast_white_26
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 25
-        width: 13
-        height: 9
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
