@@ -1,18 +1,14 @@
 fileFormatVersion: 2
-guid: 6ebdb8e8aac77cf49b520b499902b18e
-timeCreated: 1547376069
+guid: 891e4b8161bd5334797534720199d7b5
+timeCreated: 1547378720
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: EnvironmentSpriteAtlas_0
-    21300002: EnvironmentSpriteAtlas_1
-    21300004: EnvironmentSpriteAtlas_2
-    21300006: EnvironmentSpriteAtlas_3
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -44,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +50,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -102,63 +98,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 421
-        width: 512
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 329
-        width: 512
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 236
-        width: 512
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 175
-        width: 512
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
     physicsShape: []
   spritePackingTag: 
