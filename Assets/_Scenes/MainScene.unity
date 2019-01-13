@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 816326970}
   - component: {fileID: 816326969}
   - component: {fileID: 816326971}
+  - component: {fileID: 816326972}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -341,6 +342,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bbdea665544864db23dfa2ffe50778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &816326972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 816326968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4961d0f962e93834eba9afc9d2e30a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Background
+    clip: {fileID: 8300000, guid: ab50745fa4e0bc04ca383f8659c81292, type: 3}
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Shot
+    clip: {fileID: 8300000, guid: 63787e8078b5b0c4ab4a0871c3aa9f0e, type: 3}
+    volume: 0.35
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Blast
+    clip: {fileID: 8300000, guid: b30ca167986709c44bec04d9ac89c9c6, type: 3}
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &1581704869
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
     void Fire()
     {
+        AudioManager.Instance.Play(Constants.SHOT_AUDIO);
         countdown = 0;
         var bullet = ObjectPooler.SharedInstance.GetPooledObject(0);
         bullet.transform.SetPositionAndRotation(barrel.position, barrel.rotation);

@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     {
         if (!Instance)
             Instance = this;
+        AudioManager.Instance.Play(Constants.BACKGROUND_AUDIO);
     }
 
     void Start()
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnBlast(Vector3 impactPoint)
     {
+        AudioManager.Instance.Play(Constants.BLAST_AUDIO);
         var blast = blastPrefabs[Random.Range(0, blastPrefabs.Length)];
         Instantiate(blast, impactPoint, blast.transform.rotation);
     }
