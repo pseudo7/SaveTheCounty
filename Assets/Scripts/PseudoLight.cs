@@ -38,7 +38,7 @@ public class PseudoLight : MonoBehaviour
 #if UNITY_EDITOR
         rotZ = Input.GetAxis("Horizontal");
 #else
-        rotZ = Input.acceleration.x * 3;
+        rotZ = Input.acceleration.x * 2.5f;
 #endif
         if ((rotZ < 0 && currentRotationZ < bound) || (rotZ > 0 && currentRotationZ > -bound))
             transform.rotation = Quaternion.Euler(0, 0, currentRotationZ += rotZ * -moveSpeed);

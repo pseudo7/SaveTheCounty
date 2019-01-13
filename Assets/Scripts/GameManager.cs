@@ -27,7 +27,6 @@ public class GameManager : MonoBehaviour
     {
         if (!Instance)
             Instance = this;
-        AudioManager.Instance.Play(Constants.BACKGROUND_AUDIO);
     }
 
     void Start()
@@ -36,6 +35,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpawnUFOCoroutine());
         StartCoroutine(SpawnSuiciderCoroutine());
         StartCoroutine(SpawnMotherShipCoroutine());
+        AudioManager.Instance.Play(Constants.BACKGROUND_AUDIO);
     }
 
     void Update()
