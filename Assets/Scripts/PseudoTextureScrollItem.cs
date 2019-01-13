@@ -13,7 +13,7 @@ public class PseudoTextureScrollItem : MonoBehaviour
 
     void LateUpdate()
     {
-        if (transform.position.x > 30)
+        if (transform.position.x > 25.6f)
             textureScroll.SetPosition(transform);
     }
 }
