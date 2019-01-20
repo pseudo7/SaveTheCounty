@@ -19,6 +19,8 @@ public class HomingMissile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Player"))
+            GameManager.Instance.SpawnBlast(transform.position, 0);
         Destroy(gameObject);
     }
 

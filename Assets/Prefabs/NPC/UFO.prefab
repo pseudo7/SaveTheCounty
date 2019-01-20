@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  fireRate: 2
+  fireRate: 1.25
   rotationAngle: {x: 0, y: 1, z: 0}
   rotationSpeed: 100
   flyingRange: 7.5

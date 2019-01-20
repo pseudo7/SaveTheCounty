@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c933fa16b37e206488e9bd99c8f22027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightAngle: 180
+  lightAngle: 20
   lightBounds: 120
   moveSpeed: 3
 --- !u!1 &376290683
