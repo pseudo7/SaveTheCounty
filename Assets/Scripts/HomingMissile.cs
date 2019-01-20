@@ -20,7 +20,10 @@ public class HomingMissile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag(Constants.PLAYER_TAG))
-            GameManager.Instance.SpawnBlast(transform.position, 0);
+        {
+            GameManager.Instance.SpawnBlast(transform.position + Vector3.down, 0);
+            GameManager.Instance.UpdateHealth();
+        }
         Destroy(gameObject);
     }
 

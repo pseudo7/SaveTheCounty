@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,12 +17,14 @@ public class GameManager : MonoBehaviour
     public int ufoSpawnTime;
     public int suiciderSpawnTime;
     public int motherShipSpawnTime;
+    public int playerHealth = 20;
+    public float currentFireRate;
     public TextMesh scoreText;
     public Transform healthBar;
-    public float currentFireRate;
 
     float countdownUfo, countDownSuicider, countdownMotherShip;
-    float origHealth;
+    float origHealthScale;
+    int origHealth;
     byte spawnTurn = 0;
     int score;
 
@@ -40,7 +43,8 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpawnSuiciderCoroutine());
         StartCoroutine(SpawnMotherShipCoroutine());
         AudioManager.Instance.Play(Constants.BACKGROUND_AUDIO);
-        origHealth = healthBar.localScale.x;
+        origHealthScale = healthBar.localScale.x;
+        origHealth = playerHealth;
     }
 
     void Update()
@@ -104,14 +108,16 @@ public class GameManager : MonoBehaviour
         currentFireRate = levelInfo.fireRate;
     }
 
-    public void UpdateHealth(int health)
+    public void UpdateHealth()
     {
-        healthBar.localScale = new Vector3(origHealth - health / origHealth, .25f, 1);
+        if (--playerHealth <= 0)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        healthBar.localScale = new Vector3(origHealthScale * (playerHealth / (float)origHealth), .25f, 1);
     }
 
     public void UpdateScore()
     {
-        scoreText.text = string.Format("{0}", (++score).ToString("0#"));
+        scoreText.text = string.Format("{0}", (++score).ToString("00#"));
     }
 
     void SpawnUFO()
