@@ -10,10 +10,11 @@ public class Ship : MonoBehaviour
     public float rotationSpeed = 100;
     public float flyingRange = 7.5f;
     public Vector2 flyingSpeedBounds = new Vector2(1, 5);
-
+    public GameObject missilePrefab;
     bool dead;
     bool flyingToLeft;
     float flyingSpeed;
+    private float countdown;
 
     private void Start()
     {
@@ -46,6 +47,7 @@ public class Ship : MonoBehaviour
             return;
         Fly();
         Rotate();
+        FireAtRate();
     }
 
     void Rotate()
@@ -58,6 +60,18 @@ public class Ship : MonoBehaviour
         if (transform.position.x < -flyingRange || transform.position.x > flyingRange)
             flyingToLeft = !flyingToLeft;
         transform.position += (flyingToLeft ? Vector3.left : Vector3.right) * Time.deltaTime * flyingSpeed;
+    }
+
+    void FireAtRate()
+    {
+        if (countdown > 1 / fireRate) Shoot();
+        else countdown += Time.deltaTime;
+    }
+
+    void Shoot()
+    {
+        countdown = 0;
+        Instantiate(missilePrefab, transform.position, missilePrefab.transform.rotation);
     }
 
     void BulletHit()

@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 78239007}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,9 +470,10 @@ GameObject:
   - component: {fileID: 239020477}
   - component: {fileID: 239020478}
   - component: {fileID: 239020479}
-  m_Layer: 0
+  - component: {fileID: 239020480}
+  m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -548,6 +549,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!58 &239020480
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239020476}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 8.625}
+  serializedVersion: 2
+  m_Radius: 8.625
 --- !u!1 &261071548
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c933fa16b37e206488e9bd99c8f22027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightAngle: 20
+  lightAngle: 180
   lightBounds: 120
   moveSpeed: 3
 --- !u!1 &376290683

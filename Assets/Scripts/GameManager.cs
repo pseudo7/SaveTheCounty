@@ -84,6 +84,13 @@ public class GameManager : MonoBehaviour
         Instantiate(blast, impactPoint, blast.transform.rotation);
     }
 
+    public void SpawnBlast(Vector3 impactPoint, int index)
+    {
+        AudioManager.Instance.Play(Constants.BLAST_AUDIO);
+        var blast = blastPrefabs[index];
+        Instantiate(blast, impactPoint, blast.transform.rotation);
+    }
+
     public void UpdateLevelInfo(LevelInfo levelInfo)
     {
         ufoSpawnTime = levelInfo.ufoSpawnTime;

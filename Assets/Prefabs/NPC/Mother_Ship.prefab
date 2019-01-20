@@ -386,3 +386,5 @@ MonoBehaviour:
   rotationSpeed: 100
   flyingRange: 7.5
   flyingSpeedBounds: {x: 1, y: 5}
+  missilePrefab: {fileID: 1224002225101902, guid: f19a3fb02efe806459c4f2a4a550c51c,
+    type: 2}
