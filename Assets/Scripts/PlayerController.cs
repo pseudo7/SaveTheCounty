@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public Transform barrel;
     public float fireRate = 3;
-
+    public int health = 100;
     float countdown;
 
     void Update()

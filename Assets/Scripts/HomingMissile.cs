@@ -13,13 +13,13 @@ public class HomingMissile : MonoBehaviour
 
     private void Awake()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        playerTransform = GameObject.FindGameObjectWithTag(Constants.PLAYER_TAG).transform;
         rB = GetComponent<Rigidbody2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag(Constants.PLAYER_TAG))
             GameManager.Instance.SpawnBlast(transform.position, 0);
         Destroy(gameObject);
     }

@@ -12,9 +12,9 @@ public class LevelManager : MonoBehaviour
     {
         levelMap = new Dictionary<Level, LevelInfo>
         {
-            { Level.Level1, new LevelInfo(10,15,30) },
-            { Level.Level2, new LevelInfo(8,12,25) },
-            { Level.Level3, new LevelInfo(5,10,15) }
+            { Level.Level1, new LevelInfo(10, 15, 30, .75f) },
+            { Level.Level2, new LevelInfo(8, 12, 25, 1.25f) },
+            { Level.Level3, new LevelInfo(5, 10, 15, 1.5f) }
         };
     }
 
@@ -43,11 +43,13 @@ public struct LevelInfo
     public int ufoSpawnTime;
     public int suiciderSpawnTime;
     public int motherShipSpawnTime;
+    public float fireRate;
 
-    public LevelInfo(int ufoSpawnTime, int suiciderSpawnTime, int motherShipSpawnTime)
+    public LevelInfo(int ufoSpawnTime, int suiciderSpawnTime, int motherShipSpawnTime, float fireRate)
     {
         this.ufoSpawnTime = ufoSpawnTime;
         this.suiciderSpawnTime = suiciderSpawnTime;
         this.motherShipSpawnTime = motherShipSpawnTime;
+        this.fireRate = fireRate;
     }
 }

@@ -19,6 +19,7 @@ public class Ship : MonoBehaviour
     private void Start()
     {
         flyingSpeed = Random.Range(flyingSpeedBounds[0], flyingSpeedBounds[1]);
+        fireRate = GameManager.Instance.currentFireRate;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,6 +38,7 @@ public class Ship : MonoBehaviour
         if (collision.collider.CompareTag(Constants.GROUND_TAG))
         {
             GameManager.Instance.SpawnBlast(new Vector3(collision.otherCollider.transform.position.x, -4.5f));
+            GameManager.Instance.UpdateScore();
             Destroy(gameObject);
         }
     }

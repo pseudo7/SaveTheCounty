@@ -13,13 +13,17 @@ public class GameManager : MonoBehaviour
 
     public float spawnWidthRadius = 10;
     public Vector2 spawnHeightBounds = new Vector2(3, 5);
-
     public int ufoSpawnTime;
     public int suiciderSpawnTime;
     public int motherShipSpawnTime;
+    public TextMesh scoreText;
+    public Transform healthBar;
+    public float currentFireRate;
 
     float countdownUfo, countDownSuicider, countdownMotherShip;
+    float origHealth;
     byte spawnTurn = 0;
+    int score;
 
     readonly WaitForEndOfFrame WAIT_FOR_ENDFRAME = new WaitForEndOfFrame();
 
@@ -36,6 +40,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpawnSuiciderCoroutine());
         StartCoroutine(SpawnMotherShipCoroutine());
         AudioManager.Instance.Play(Constants.BACKGROUND_AUDIO);
+        origHealth = healthBar.localScale.x;
     }
 
     void Update()
@@ -96,6 +101,17 @@ public class GameManager : MonoBehaviour
         ufoSpawnTime = levelInfo.ufoSpawnTime;
         suiciderSpawnTime = levelInfo.suiciderSpawnTime;
         motherShipSpawnTime = levelInfo.motherShipSpawnTime;
+        currentFireRate = levelInfo.fireRate;
+    }
+
+    public void UpdateHealth(int health)
+    {
+        healthBar.localScale = new Vector3(origHealth - health / origHealth, .25f, 1);
+    }
+
+    public void UpdateScore()
+    {
+        scoreText.text = string.Format("{0}", (++score).ToString("0#"));
     }
 
     void SpawnUFO()
