@@ -6,6 +6,7 @@
 
 ### Game uses Mobile `G-Sensor` for controlling the flashlight to find Alien spaceships and stop `Alient Invasion`
 ### `Tilt` your device to the sides and `Tap` anywhere to fire `Machine Gun`  
+### Having `4 Layers` Parallaxing Effect for the Background and the Moon Phases.
 ### Game offers `Healthbar` and `Score` in the `HUD` for competetive gameplay.
 ### With `80's Gameplay Music` enjoy killing and taking down spaceships.
 
