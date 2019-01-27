@@ -1,6 +1,6 @@
 ## Save The County
 
-## Simple `Tap'n'Hold` Shooting Arcade Game in `Retro BW` Theme made using Unity.
+### Simple `Tap'n'Hold` Shooting Arcade Game in `Retro BW` Theme made using Unity.
 
 <img src="/Screenshots/09-min.png">
 
