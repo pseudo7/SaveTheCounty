@@ -155,4 +155,12 @@ public class GameManager : MonoBehaviour
         var spawnRotation = Quaternion.identity;
         Instantiate(motherShip, spawnPosition, spawnRotation);
     }
+
+#if UNITY_EDITOR
+    [UnityEditor.MenuItem("Pseudo/Capture")]
+    public static void Capture()
+    {
+        ScreenCapture.CaptureScreenshot(string.Format("{0}.png", System.DateTime.Now.Ticks.ToString()));
+    }
+#endif
 }
