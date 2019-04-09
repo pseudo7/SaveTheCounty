@@ -12,9 +12,9 @@ public class LevelManager : MonoBehaviour
     {
         levelMap = new Dictionary<Level, LevelInfo>
         {
-            { Level.Level1, new LevelInfo(10, 15, 30, .75f) },
-            { Level.Level2, new LevelInfo(8, 12, 25, 1.5f) },
-            { Level.Level3, new LevelInfo(5, 10, 15, 2.0f) }
+            { Level.Level1, new LevelInfo(10, 15, 30, .25f) },
+            { Level.Level2, new LevelInfo(08, 12, 25, .5f) },
+            { Level.Level3, new LevelInfo(05, 10, 15, .75f) }
         };
     }
 
