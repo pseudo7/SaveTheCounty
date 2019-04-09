@@ -3,8 +3,8 @@
 ### Simple `Tap'n'Hold` Shooting Arcade Game in `Retro BW` Theme made using Unity.
 
 <p align="center">
-<img src="GIFs/Save_County_01.gif>
-<img src="GIFs/Save_County_02.gif>
+<img src="GIFs/Save_County_01.gif">
+<img src="GIFs/Save_County_02.gif">
 </p>
 
 ### Game uses Mobile `G-Sensor` for controlling the flashlight to find Alien spaceships and stop `Alient Invasion`
